@@ -16,10 +16,10 @@ spring:
 
 
     mail:
-      host: localhost
+      host: mail-dev
       port: 1025
-      username: ali
-      password: ali
+      username: ""
+      password: ""
       properties:
         mail:
           smtp:
@@ -41,5 +41,5 @@ application:
     frontend:
       activation-url: http://localhost:4200/activate-account
 
-  server:
+server:
     port: 8088
