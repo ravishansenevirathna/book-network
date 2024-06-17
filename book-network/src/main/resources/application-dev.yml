@@ -15,21 +15,21 @@ spring:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
 
 
-    mail:
-      host: mail-dev
-      port: 1025
-      username: ""
-      password: ""
-      properties:
-        mail:
-          smtp:
-            trust: "*"
-          auth: true
-          starttls:
-            enabled: true
-          connectiontimeout: 5000
-          timeout: 3000
-          writetimeout: 5000
+  mail:
+    host: mail-dev
+    port: 1025
+    username: ""
+    password: ""
+    properties:
+      mail:
+        smtp:
+          trust: "*"
+        auth: true
+        starttls:
+          enabled: true
+        connectiontimeout: 5000
+        timeout: 3000
+        writetimeout: 5000
 
 application:
   security:
@@ -40,6 +40,10 @@ application:
   mailing:
     frontend:
       activation-url: http://localhost:4200/activate-account
+
+  file:
+    uploads:
+      photos-output-path: ./uploads
 
 server:
     port: 8088
