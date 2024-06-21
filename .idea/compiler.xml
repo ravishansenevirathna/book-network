@@ -12,7 +12,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="book-network" options="-parameters --add-exports java.base/sun.net.ftp=ALL-UNNAMED --add-exports java.base/sun.security.timestamp=ALL-UNNAMED" />
+      <module name="book-network" options="-parameters" />
     </option>
   </component>
 </project>
